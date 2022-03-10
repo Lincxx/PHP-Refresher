@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    !https://www.youtube.com/watch?v=BGm9S5B0y50&list=PLFHz2csJcgk_fFEWydZJLiXpc9nB1qfpi&index=24
+<?php
+$a = 0;
+do {
+    echo $a;
+    $a++;
+} while ($a <= 10);
+
+?>
 </body>
 </html>
