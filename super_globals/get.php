@@ -8,7 +8,15 @@
 </head>
 <body>
   <?php
-    echo rand(1,6);
+  // GET
+  // data will be visible in the url - use when sending non-sensitive info
+
+
   ?>
+  <form action="get.php" method="get">
+    <input type="text" name="name">
+    <input type="text" name="age">
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>

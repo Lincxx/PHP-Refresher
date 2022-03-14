@@ -29,7 +29,24 @@ echo "<br>";
 // print only values
 print_r(array_values($personalInfo));
 
-https://youtu.be/ymO2JEVWu30?t=235
+
+// can't use push with an associative array 
+
+$cars = array("BMW", "Ford", "Chevy");
+// add a value to an array
+array_push($cars, "Volvo");
+echo "<br>";
+print_r($cars);
+
+// Array search and returns the key
+echo "<br>";
+echo array_search("Chevy", $cars);
+
+// count the number of items in an array
+echo "<br>";
+echo count($cars)
+
+
   ?>
 </body>
 </html>
